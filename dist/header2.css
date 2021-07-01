@@ -1,0 +1,727 @@
+@font-face {
+  font-family: "Josefin Sans";
+  src: url("type/JosefinSans-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@media screen and (min-width: 1480px) and (max-width: 2500px) {
+  .slider1 {
+    display: block;
+    height: 600px;
+    background: url("img/bg_1.png") 75% 50% no-repeat, url("img/bg_1.jpg") 100% 100%;
+    background-size: 35%, cover;
+    color: oldlace;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .slider2 {
+    display: block;
+    height: 600px;
+    background: url("img/bg_2.png") 25% 50% no-repeat, url("img/bg_1.jpg") 100% 100%;
+    background-size: 35%, cover;
+    color: oldlace;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .slider3 {
+    display: block;
+    height: 600px;
+    background: url("img/bg_3.jpg") 50% 60%;
+    background-size: cover;
+    color: oldlace;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .slidbox1 {
+    align-self: flex-start;
+    width: 47%;
+    margin-top: 80px;
+    margin-left: 10px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: end;
+  }
+
+  .slidbox2 {
+    align-self: flex-end;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-top: 80px;
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: start;
+  }
+
+  .slidbox3 {
+    width: 450px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #slider > div > button {
+    width: 10px;
+    height: 15px;
+    border: 2px solid oldlace;
+    border-radius: 50%;
+    background-color: rgba(253, 245, 230, 0.7);
+    margin: 5px;
+    margin-top: 10px;
+  }
+
+  #slider > div > button:hover {
+    width: 10px;
+    height: 15px;
+    border: 2px solid oldlace;
+    border-radius: 50%;
+    background-color: oldlace;
+    margin: 5px;
+    margin-top: 10px;
+  }
+
+  #slider > div > p > input {
+    width: 100px;
+    height: 45px;
+    background-color: transparent;
+    color: oldlace;
+    border-color: oldlace;
+    margin-top: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+
+  #slider > div > p > input:hover {
+    width: 100px;
+    height: 45px;
+    background-color: #e6cb56;
+    color: oldlace;
+    border-color: oldlace;
+    margin-top: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+
+  #slider > div > h2 {
+    margin: 5px;
+    color: #e6cb56;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
+  #slider > div > h1 {
+    margin-top: 5px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1480px) {
+  .slider1 {
+    display: block;
+    height: 600px;
+    background: url("img/bg_1.png") 78% 50% no-repeat, url("img/bg_1.jpg") 100% 100%;
+    background-size: 35%, cover;
+    color: oldlace;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .slider2 {
+    display: block;
+    height: 600px;
+    background: url("img/bg_2.png") 22% 50% no-repeat, url("img/bg_1.jpg") 100% 100%;
+    background-size: 35%, cover;
+    color: oldlace;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .slider3 {
+    display: block;
+    height: 600px;
+    background: url("img/bg_3.jpg") 50% 60%;
+    background-size: cover;
+    color: oldlace;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .slidbox1 {
+    align-self: flex-start;
+    width: 45%;
+    margin-top: 80px;
+    margin-left: 10px;
+    margin-right: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: end;
+  }
+
+  .slidbox2 {
+    align-self: flex-end;
+    margin-left: 80px;
+    margin-right: 10px;
+    margin-top: 80px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: start;
+  }
+
+  .slidbox3 {
+    width: 450px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #slider > div > button {
+    width: 10px;
+    height: 15px;
+    border: 2px solid oldlace;
+    border-radius: 50%;
+    background-color: rgba(253, 245, 230, 0.7);
+    margin: 5px;
+    margin-top: 10px;
+  }
+
+  #slider > div > button:hover {
+    width: 10px;
+    height: 15px;
+    border: 2px solid oldlace;
+    border-radius: 50%;
+    background-color: oldlace;
+    margin: 5px;
+    margin-top: 10px;
+  }
+
+  #slider > div > p > input {
+    width: 100px;
+    height: 45px;
+    background-color: transparent;
+    color: oldlace;
+    border-color: oldlace;
+    margin-top: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+
+  #slider > div > p > input:hover {
+    width: 100px;
+    height: 45px;
+    background-color: #e6cb56;
+    color: oldlace;
+    border-color: oldlace;
+    margin-top: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+
+  #slider > div > h2 {
+    margin: 5px;
+    color: #e6cb56;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
+  #slider > div > h1 {
+    margin-top: 5px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .slider1 {
+    display: block;
+    height: 500px;
+    background: url("img/bg_1.png") -30% 120% no-repeat, url("img/bg_1.png") 120% -30% no-repeat, url("img/bg_1.jpg") 100% 100%;
+    background-size: 350px, 350px, cover;
+    color: oldlace;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .slider2 {
+    display: block;
+    height: 500px;
+    background: url("img/bg_2.png") 130% 100% no-repeat, url("img/bg_2.png") -30% 0% no-repeat, url("img/bg_1.jpg") 100% 100%;
+    background-size: 350px, 350px, cover;
+    color: oldlace;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .slider3 {
+    display: block;
+    height: 500px;
+    background: url("img/bg_3.jpg") 50% 60%;
+    background-size: cover;
+    color: oldlace;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .slidbox1 {
+    width: 43%;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .slidbox2 {
+    margin-top: 80px;
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .slidbox3 {
+    width: 450px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #slider > div > button {
+    width: 10px;
+    height: 15px;
+    border: 2px solid oldlace;
+    border-radius: 50%;
+    background-color: rgba(253, 245, 230, 0.7);
+    margin: 5px;
+    margin-top: 10px;
+  }
+
+  #slider > div > button:hover {
+    width: 10px;
+    height: 15px;
+    border: 2px solid oldlace;
+    border-radius: 50%;
+    background-color: oldlace;
+    margin: 5px;
+    margin-top: 10px;
+  }
+
+  #slider > div > p > input {
+    width: 100px;
+    height: 45px;
+    background-color: transparent;
+    color: oldlace;
+    border-color: oldlace;
+    margin-top: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+
+  #slider > div > p > input:hover {
+    width: 100px;
+    height: 45px;
+    background-color: #e6cb56;
+    color: oldlace;
+    border-color: oldlace;
+    margin-top: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+
+  #slider > div > h2 {
+    margin: 5px;
+    color: #e6cb56;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
+  #slider > div > h1 {
+    margin-top: 5px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  }
+}
+@media screen and (min-width: 650px) and (max-width: 768px) {
+  .slider1 {
+    display: block;
+    height: 500px;
+    background: url("img/bg_1.png") -30% 120% no-repeat, url("img/bg_1.png") 120% -30% no-repeat, url("img/bg_1.jpg") 100% 100%;
+    background-size: 350px, 350px, cover;
+    color: oldlace;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .slider2 {
+    display: block;
+    height: 500px;
+    background: url("img/bg_2.png") 130% 100% no-repeat, url("img/bg_2.png") -30% 0% no-repeat, url("img/bg_1.jpg") 100% 100%;
+    background-size: 350px, 350px, cover;
+    color: oldlace;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .slider3 {
+    display: block;
+    height: 500px;
+    background: url("img/bg_3.jpg") 50% 60%;
+    background-size: cover;
+    color: oldlace;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .slidbox1 {
+    width: 43%;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .slidbox2 {
+    margin-top: 80px;
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .slidbox3 {
+    width: 450px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #slider > div > button {
+    width: 10px;
+    height: 15px;
+    border: 2px solid oldlace;
+    border-radius: 50%;
+    background-color: rgba(253, 245, 230, 0.7);
+    margin: 5px;
+    margin-top: 10px;
+  }
+
+  #slider > div > button:hover {
+    width: 10px;
+    height: 15px;
+    border: 2px solid oldlace;
+    border-radius: 50%;
+    background-color: oldlace;
+    margin: 5px;
+    margin-top: 10px;
+  }
+
+  #slider > div > p > input {
+    width: 90px;
+    height: 45px;
+    background-color: transparent;
+    color: oldlace;
+    border-color: oldlace;
+    margin-top: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+
+  #slider > div > p > input:hover {
+    width: 90px;
+    height: 45px;
+    background-color: #e6cb56;
+    color: oldlace;
+    border-color: oldlace;
+    margin-top: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+
+  #slider > div > h2 {
+    margin: 5px;
+    color: #e6cb56;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
+  #slider > div > h1 {
+    font-size: 25px;
+    margin-top: 5px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 650px) {
+  .slider1 {
+    display: block;
+    height: 240px;
+    background: url("img/bg_1.png") -30% 120% no-repeat, url("img/bg_1.png") 130% -30% no-repeat, url("img/bg_1.jpg") 100% 100%;
+    background-size: 200px, 200px, cover;
+    color: oldlace;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .slider2 {
+    display: block;
+    height: 240px;
+    background: url("img/bg_2.png") 130% 100% no-repeat, url("img/bg_2.png") -30% 0% no-repeat, url("img/bg_1.jpg") 100% 100%;
+    background-size: 200px, 200px, cover;
+    color: oldlace;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .slider3 {
+    display: block;
+    height: 240px;
+    background: url("img/bg_3.jpg") 50% 60%;
+    background-size: cover;
+    color: oldlace;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .slidbox1 {
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .slidbox2 {
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .slidbox3 {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #slider > div > button {
+    width: 10px;
+    height: 15px;
+    border: 2px solid oldlace;
+    border-radius: 50%;
+    background-color: rgba(253, 245, 230, 0.7);
+    margin: 3px;
+  }
+
+  #slider > div > button:hover {
+    width: 10px;
+    height: 15px;
+    border: 2px solid oldlace;
+    border-radius: 50%;
+    background-color: oldlace;
+    margin: 3px;
+  }
+
+  #slider > div > p > input {
+    width: 80px;
+    height: 35px;
+    background-color: transparent;
+    color: oldlace;
+    border-color: oldlace;
+    margin-top: 5px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+
+  #slider > div > p > input:hover {
+    width: 80px;
+    height: 35px;
+    background-color: #e6cb56;
+    color: oldlace;
+    border-color: oldlace;
+    margin-top: 5px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+
+  #slider > div > p:first-of-type {
+    display: none;
+  }
+
+  #slider > div > h2 {
+    margin: 5px;
+    color: #e6cb56;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
+  #slider > div > h1 {
+    font-size: 25px;
+    margin: 5px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .slider1 {
+    display: block;
+    height: 240px;
+    background: url("img/bg_1.png") -30% 120% no-repeat, url("img/bg_1.png") 130% -30% no-repeat, url("img/bg_1.jpg") 100% 100%;
+    background-size: 200px, 200px, cover;
+    color: oldlace;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .slider2 {
+    display: block;
+    height: 240px;
+    background: url("img/bg_2.png") 130% 100% no-repeat, url("img/bg_2.png") -30% 0% no-repeat, url("img/bg_1.jpg") 100% 100%;
+    background-size: 200px, 200px, cover;
+    color: oldlace;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .slider3 {
+    display: block;
+    height: 240px;
+    background: url("img/bg_3.jpg") 50% 60%;
+    background-size: cover;
+    color: oldlace;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .slidbox1 {
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .slidbox2 {
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .slidbox3 {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #slider > div > button {
+    width: 10px;
+    height: 15px;
+    border: 2px solid oldlace;
+    border-radius: 50%;
+    background-color: rgba(253, 245, 230, 0.7);
+    margin: 3px;
+  }
+
+  #slider > div > button:hover {
+    width: 10px;
+    height: 15px;
+    border: 2px solid oldlace;
+    border-radius: 50%;
+    background-color: oldlace;
+    margin: 3px;
+  }
+
+  #slider > div > p > input {
+    width: 80px;
+    height: 25px;
+    background-color: oldlace;
+    color: #251b02;
+    border-color: oldlace;
+    margin-top: 5px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+
+  #slider > div > p > input:hover {
+    width: 80px;
+    height: 25px;
+    background-color: #e6cb56;
+    color: oldlace;
+    border-color: oldlace;
+    margin-top: 5px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+
+  #slider > div > p:first-of-type {
+    display: none;
+  }
+
+  #slider > div > h2 {
+    margin: 5px;
+    color: #e6cb56;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
+  #slider > div > h1 {
+    font-size: 20px;
+    margin: 5px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  }
+}
