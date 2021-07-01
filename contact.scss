@@ -1,0 +1,195 @@
+@media screen and (min-width : 768px) and (max-width : 2500px){
+    .contact_article{
+        width: 100%;
+        height: 400px;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start; 
+        align-items: center; 
+      padding-top: 30px;
+        padding-bottom: 30px;
+        color: oldlace;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .map{
+        width: 50%;
+    }
+    iframe{
+        width: 100%;
+        height: 430px;
+    }
+    .contact_block{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: flex-start; 
+        padding-left: 35px; 
+    }
+    form{
+        width: 100%;
+    }
+    .input{
+        width: 80%;
+        height: 50px;
+        background-color: black;
+        color: oldlace;
+    }
+    .input:hover{
+        width: 80%;
+        height: 50px;
+        background-color: rgba($color: #f5e277, $alpha: 0.6);
+        color: rgb(15, 10, 1);
+    }
+    #button{
+        width: 80px;
+        height: 50px;
+        background-color:rgb(230, 203, 86);
+        color: rgb(31, 21, 3);
+        margin-top: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #button:hover{
+        width: 80px;
+        height: 50px;
+        background-color:oldlace;
+        color: rgb(230, 203, 86);
+        border-color:  oldlace;
+        margin-top: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+@media screen and (min-width : 480px) and (max-width : 768px){
+    .contact_article{
+        width: 100%;
+        height: 350px;
+        background-color: black;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start; 
+        align-items: center; 
+      padding-top: 10px;
+        padding-bottom: 10px;
+        color: oldlace;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .map{
+        width: 90%;
+    }
+    iframe{
+        width: 100%;
+        height: 150px;
+    }
+    .contact_block{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: flex-start; 
+        padding-left: 35px; 
+    }
+    .contact_block > h2{
+        margin: 5px;
+    }
+    form{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .input{
+        width: 80%;
+        height: 30px;
+        background-color: black;
+        color: oldlace;
+    }
+    .input:hover{
+        width: 80%;
+        height: 30px;
+        background-color: rgba($color: #f5e277, $alpha: 0.6);
+        color: rgb(15, 10, 1);
+    }
+    #button{
+        width: 60px;
+        height: 30px;
+        background-color:rgb(230, 203, 86);
+        color: rgb(31, 21, 3);
+        margin-top: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #button:hover{
+        width: 60px;
+        height: 30px;
+        background-color:oldlace;
+        color: rgb(230, 203, 86);
+        border-color:  oldlace;
+        margin-top: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+@media screen and (min-width : 320px) and (max-width : 480px){
+    .contact_article{
+        width: 100%;
+        height: 350px;
+        background-color: black;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start; 
+        align-items: center; 
+      padding-top: 10px;
+        padding-bottom: 10px;
+        color: oldlace;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .map{
+        width: 90%;
+    }
+    iframe{
+        width: 100%;
+        height: 150px;
+    }
+    .contact_block{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: flex-start; 
+        padding-left: 35px; 
+    }
+    .contact_block > h2{
+        margin: 5px;
+    }
+    form{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .input{
+        width: 80%;
+        height: 30px;
+        background-color: black;
+        color: oldlace;
+    }
+    .input:hover{
+        width: 80%;
+        height: 30px;
+        background-color: rgba($color: #f5e277, $alpha: 0.6);
+        color: rgb(15, 10, 1);
+    }
+    #button{
+        width: 60px;
+        height: 30px;
+        background-color:rgb(230, 203, 86);
+        color: rgb(31, 21, 3);
+        margin-top: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #button:hover{
+        width: 60px;
+        height: 30px;
+        background-color:oldlace;
+        color: rgb(230, 203, 86);
+        border-color:  oldlace;
+        margin-top: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+
